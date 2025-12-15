@@ -1,0 +1,10 @@
+services:
+  python:
+    build:
+      context: .
+      dockerfile: dockerfile
+      args:
+        - BUILD_VERSION=DEV
+        - WORKDIR=/Projects/boilerplate-kafka
+    volumes:
+      - ../../:/Projects/boilerplate-kafka

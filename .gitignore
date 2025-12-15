@@ -1,0 +1,5 @@
+.python
+.venv
+src/boilerplate_kafka.egg-info
+.mypy_cache
+.devcontainer/kafka/data
